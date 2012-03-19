@@ -29,8 +29,6 @@ set ruler                       " Show current line number in statusline
 set backspace=indent,eol,start  " Allow backspacing over newlines and indentation
 set ttyfast                     " It's ok vim, our terminal is fast
 set tags=tags;/                 " Keep going up directories until tags is found
-set list                        " Show invisible characters
-set listchars=tab:>·,trail:·    " But only show tabs and trailing whitespace
 set wildmenu                    " Turn on wild menu :e <Tab>
 set wildmode=list:longest       " Set wildmenu to list choice
 set lazyredraw                  " Don't redraw while in macros
@@ -61,3 +59,9 @@ map <down> <ESC>:tabp<RETURN>
 
 " Disable search highlighting
 map - :nohls<cr>
+
+" Show trailing whitespace and tabs when not using insert mode
+set list
+set listchars=tab:>·,trail:·
+autocmd InsertEnter * set nolist
+autocmd InsertLeave * set list
