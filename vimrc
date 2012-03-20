@@ -65,3 +65,6 @@ set list
 set listchars=tab:>·,trail:·
 autocmd InsertEnter * set nolist
 autocmd InsertLeave * set list
+
+" Fix paste to match indentation levels
+nnoremap p p`[v`]=
