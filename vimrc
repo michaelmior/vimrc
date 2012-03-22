@@ -34,6 +34,7 @@ set wildmode=list:longest       " Set wildmenu to list choice
 set lazyredraw                  " Don't redraw while in macros
 set hidden                      " Allow hiding of hidden buffers
 set cursorline                  " Highlight the current line
+set mouse+=a                    " Make the mouse behave more appropriately
 
 " Disable error bells
 set noerrorbells
