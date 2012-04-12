@@ -19,3 +19,6 @@
 [submodule "bundle/vim-haskell"]
 	path = bundle/vim-haskell
 	url = https://github.com/wlangstroth/vim-haskell.git
+[submodule "bundle/gitv"]
+	path = bundle/gitv
+	url = https://github.com/gregsexton/gitv.git
