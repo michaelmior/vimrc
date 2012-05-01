@@ -69,3 +69,10 @@ autocmd InsertLeave * set list
 
 " Fix paste to match indentation levels
 nnoremap p p`[v`]=
+
+" NERDTree {
+  autocmd vimenter * if !argc() | NERDTree | endif
+  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+  map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
+  let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
+" }
