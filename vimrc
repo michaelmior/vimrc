@@ -35,6 +35,7 @@ set lazyredraw                  " Don't redraw while in macros
 set hidden                      " Allow hiding of hidden buffers
 set cursorline                  " Highlight the current line
 set mouse+=a                    " Make the mouse behave more appropriately
+set shortmess=atI               " Hide some unneeded messages
 
 " Disable error bells
 set noerrorbells
