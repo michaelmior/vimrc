@@ -70,6 +70,9 @@ autocmd InsertLeave * set list
 " Fix paste to match indentation levels
 nnoremap p p`[v`]=
 
+" Prettify JSON
+map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
+
 " NERDTree {
   autocmd vimenter * if !argc() | NERDTree | endif
   autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
