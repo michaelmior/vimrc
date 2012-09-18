@@ -68,6 +68,9 @@ set listchars=tab:>·,trail:·
 autocmd InsertEnter * set nolist
 autocmd InsertLeave * set list
 
+" Always change to the directory of the current buffer
+autocmd BufEnter * silent! lcd %:p:h
+
 " Fix paste to match indentation levels
 nnoremap p p`[v`]=
 
