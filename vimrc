@@ -80,3 +80,6 @@ map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
   map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
   let NERDTreeIgnore=['\.pyc', '\~$', '\.swo$', '\.swp$', '\.git', '\.hg', '\.svn', '\.bzr']
 " }
+
+set laststatus=2
+set encoding=utf-8
