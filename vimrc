@@ -36,6 +36,7 @@ set hidden                      " Allow hiding of hidden buffers
 set cursorline                  " Highlight the current line
 set mouse+=a                    " Make the mouse behave more appropriately
 set shortmess=atI               " Hide some unneeded messages
+set colorcolumn=80              " Show a right margin
 
 " Disable error bells
 set noerrorbells
