@@ -84,3 +84,5 @@ map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
 set laststatus=2
 set encoding=utf-8
+let g:Powerline_symbols = 'fancy'
+let g:syntastic_objc_checker = ''
