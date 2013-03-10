@@ -86,3 +86,17 @@ set laststatus=2
 set encoding=utf-8
 let g:Powerline_symbols = 'fancy'
 let g:syntastic_objc_checker = ''
+
+" Restore cursor position on load
+set viminfo='10,\"100,:20,%,n~/.viminfo
+function! ResCur()
+  if line("'\"") <= line("$")
+    normal! g`"
+    return 1
+  endif
+endfunction
+
+augroup resCur
+  autocmd!
+  autocmd BufWinEnter * call ResCur()
+augroup END
