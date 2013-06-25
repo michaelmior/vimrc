@@ -52,3 +52,9 @@
 [submodule "vendor/sparkup"]
 	path = vendor/sparkup
 	url = https://github.com/rstacruz/sparkup.git
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-easymotion"]
+	path = bundle/vim-easymotion
+	url = git://github.com/Lokaltog/vim-easymotion.git
