@@ -102,3 +102,7 @@ augroup resCur
   autocmd!
   autocmd BufWinEnter * call ResCur()
 augroup END
+
+" Stick in visual mode when indenting
+vnoremap > >gv
+vnoremap < <gv
