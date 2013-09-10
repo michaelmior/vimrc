@@ -139,3 +139,6 @@ noremap <silent> <CR> mao<Esc>`a
 
 :command Wq wq
 :command W w
+
+" Indent XML
+au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
