@@ -106,3 +106,6 @@ augroup END
 " Stick in visual mode when indenting
 vnoremap > >gv
 vnoremap < <gv
+
+" Avoid 'Press ENTER or type command to continue'
+:cabbrev make make<CR>
