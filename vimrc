@@ -132,3 +132,7 @@ endfunction
 nmap <silent> <leader>dl :call DiffToggle(1)<cr>
 nmap <silent> <leader>dc :call DiffToggle(2)<cr>
 nmap <silent> <leader>dr :call DiffToggle(3)<cr>
+
+:autocmd CmdwinEnter * nnoremap <CR> <CR>
+:autocmd BufReadPost quickfix nnoremap <CR> <CR>
+noremap <silent> <CR> mao<Esc>`a
