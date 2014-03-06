@@ -90,6 +90,7 @@ let g:Powerline_symbols = 'fancy'
 let g:syntastic_objc_checker = ''
 let g:syntastic_javascript_checker = 'jshint'
 let g:syntastic_python_checker_args = '--ignore=E124,E126,E127,E128'
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 
 " Restore cursor position on load
 set viminfo='10,\"100,:20,%,n~/.viminfo
