@@ -1,7 +1,17 @@
 set encoding=utf-8
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-call pathogen#infect()
-call pathogen#helptags()
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Plugin 'wesgibbs/vim-irblack'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'bling/vim-airline'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-repeat'
 
 syntax on
 filetype plugin indent on
@@ -86,7 +96,7 @@ map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
 set laststatus=2
 set encoding=utf-8
-let g:Powerline_symbols = 'fancy'
+let g:airline#extensions#disable_rtp_load = 1
 let g:syntastic_objc_checker = ''
 let g:syntastic_javascript_checker = 'jshint'
 let g:syntastic_python_checker_args = '--ignore=E124,E126,E127,E128'
