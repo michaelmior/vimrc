@@ -12,6 +12,12 @@ Plugin 'bling/vim-airline'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'michaeljsmith/vim-indent-object'
+Plugin 'groenewege/vim-less'
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-unimpaired'
 
 syntax on
 filetype plugin indent on
