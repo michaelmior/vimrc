@@ -7,7 +7,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 Plugin 'wesgibbs/vim-irblack'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'bling/vim-airline'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'tpope/vim-surround'
@@ -19,6 +19,7 @@ Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tmhedberg/matchit'
+Plugin 'mattn/emmet-vim'
 
 syntax on
 filetype plugin indent on
@@ -155,3 +156,8 @@ noremap <silent> <CR> mao<Esc>`a
 
 " Indent XML
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
+
+" Emmet shortcuts
+let g:user_emmet_expandabbr_key='<C-E>'
+let g:user_emmet_next_key='<C-K>'
+let g:user_emmet_prev_key='<C-J>'
