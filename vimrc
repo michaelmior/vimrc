@@ -18,6 +18,7 @@ Plugin 'michaeljsmith/vim-indent-object'
 Plugin 'groenewege/vim-less'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
+Plugin 'tmhedberg/matchit'
 
 syntax on
 filetype plugin indent on
