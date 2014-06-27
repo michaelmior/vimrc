@@ -21,6 +21,8 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tmhedberg/matchit'
 Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-endwise'
+Plugin 'airblade/vim-gitgutter'
 
 syntax on
 filetype plugin indent on
