@@ -20,6 +20,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tmhedberg/matchit'
 Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-bundler'
 
 syntax on
 filetype plugin indent on
