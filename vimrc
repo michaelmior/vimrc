@@ -23,9 +23,12 @@ Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-endwise'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'chrisbra/csv.vim'
+Plugin 'majutsushi/tagbar'
 
-syntax on
 filetype plugin indent on
+syntax on
 
 set undodir=~/.vim-undo
 set undofile
@@ -106,6 +109,8 @@ let g:syntastic_javascript_checker = 'jshint'
 let g:syntastic_python_checker_args = '--ignore=E124,E126,E127,E128'
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_always_populate_loc_list = 1
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " Restore cursor position on load
 set viminfo='10,\"100,:20,%,n~/.viminfo
@@ -180,3 +185,5 @@ vnoremap <silent> # :<C-U>
 
 " C-c to close buffer but keep window
 nnoremap <C-c> :bp\|bd #
+
+nmap <F8> :TagbarToggle<CR>
