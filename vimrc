@@ -26,6 +26,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chrisbra/csv.vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'nginx/nginx', {'rtp': 'contrib/vim/'}
 
 filetype plugin indent on
 syntax on
