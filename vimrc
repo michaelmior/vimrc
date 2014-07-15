@@ -185,6 +185,6 @@ vnoremap <silent> # :<C-U>
   \gV:call setreg('"', old_reg, old_regtype)<CR>
 
 " C-c to close buffer but keep window
-nnoremap <C-c> :bp\|bd #
+nnoremap <C-c> :bp\|bd #<CR>
 
 nmap <F8> :TagbarToggle<CR>
