@@ -164,8 +164,8 @@ nmap <silent> <leader>dr :call DiffToggle(3)<cr>
 :autocmd BufReadPost quickfix nnoremap <CR> <CR>
 noremap <silent> <CR> mao<Esc>`a
 
-:command Wq wq
-:command W w
+:command! Wq wq
+:command! W w
 
 " Indent XML
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null
