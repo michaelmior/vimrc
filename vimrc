@@ -190,3 +190,4 @@ vnoremap <silent> # :<C-U>
 nnoremap <C-c> :bp\|bd #<CR>
 
 nmap <F8> :TagbarToggle<CR>
+:vmap <C-C> "+y
