@@ -1,5 +1,6 @@
 set encoding=utf-8
 set nocompatible              " be iMproved, required
+set wildignorecase
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
