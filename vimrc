@@ -28,6 +28,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'chrisbra/csv.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'nginx/nginx', {'rtp': 'contrib/vim/'}
+Plugin 'hura/vim-asymptote'
 
 filetype plugin indent on
 syntax on
