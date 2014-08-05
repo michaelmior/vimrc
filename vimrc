@@ -29,6 +29,7 @@ Plugin 'chrisbra/csv.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'nginx/nginx', {'rtp': 'contrib/vim/'}
 Plugin 'hura/vim-asymptote'
+Plugin 'bogado/file-line'
 
 filetype plugin indent on
 syntax on
