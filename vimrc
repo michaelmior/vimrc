@@ -165,3 +165,6 @@ nmap <F8> :TagbarToggle<CR>
 
 " Spell checking
 autocmd BufRead,BufNewFile *.md,*.tex setlocal spell
+
+" Don't automatically fold markdown
+let g:vim_markdown_folding_disabled=1
