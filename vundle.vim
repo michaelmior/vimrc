@@ -31,3 +31,4 @@ Plugin 'majutsushi/tagbar'
 Plugin 'nginx/nginx', {'rtp': 'contrib/vim/'}
 Plugin 'hura/vim-asymptote'
 Plugin 'bogado/file-line'
+Plugin 'vim-scripts/AnsiEsc.vim'
