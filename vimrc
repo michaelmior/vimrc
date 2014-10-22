@@ -42,6 +42,9 @@ set colorcolumn=80              " Show a right margin
 set noerrorbells
 set visualbell t_vb=
 
+" Change leader
+let mapleader=","
+
 " Make cursor movements work as expected for wrapped lines
 noremap  <buffer> <silent> k gk
 noremap  <buffer> <silent> j gj
