@@ -7,8 +7,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Plugin 'wesgibbs/vim-irblack'
-" Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'bling/vim-airline'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
@@ -35,3 +33,4 @@ Plugin 'vim-scripts/AnsiEsc.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'wlangstroth/vim-racket'
 Plugin 'guns/vim-clojure-static'
+Plugin 'w0ng/vim-hybrid'
