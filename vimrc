@@ -10,6 +10,7 @@ set undolevels=1000
 set undoreload=10000
 
 colorscheme hybrid
+highlight ColorColumn ctermbg=red
 
 set tabstop=4
 set shiftwidth=4
