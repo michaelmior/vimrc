@@ -65,7 +65,7 @@ map <up> <ESC>:tabn<RETURN>
 map <down> <ESC>:tabp<RETURN>
 
 " Disable search highlighting
-map - :nohls<cr>
+map <Bslash> :nohls<cr>
 
 " Show trailing whitespace and tabs when not using insert mode
 set list
