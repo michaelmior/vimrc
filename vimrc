@@ -186,3 +186,8 @@ if executable('ag')
 endif
 
 au BufRead,BufNewFile *.plt,*.gnuplot set ft=gnuplot
+
+" Disable folding in vim-latex
+:let Tex_FoldedSections=""
+:let Tex_FoldedEnvironments=""
+:let Tex_FoldedMisc=""
