@@ -191,3 +191,8 @@ au BufRead,BufNewFile *.plt,*.gnuplot set ft=gnuplot
 :let Tex_FoldedSections=""
 :let Tex_FoldedEnvironments=""
 :let Tex_FoldedMisc=""
+
+" incsearch
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
