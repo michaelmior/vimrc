@@ -186,6 +186,7 @@ if executable('ag')
 endif
 
 au BufRead,BufNewFile *.plt,*.gnuplot set ft=gnuplot
+au BufRead,BufNewFile .simplecov set ft=ruby
 
 " Disable folding in vim-latex
 :let Tex_FoldedSections=""
