@@ -204,3 +204,6 @@ nnoremap <silent> gh "_yiw?\w\+\_W\+\%#<CR>:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\
 
 " Disable ex mode
 nnoremap Q <nop>
+
+" Faster syntax checking with JRuby
+let $JRUBY_OPTS = '--dev'
