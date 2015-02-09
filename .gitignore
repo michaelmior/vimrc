@@ -1,4 +1,4 @@
 .netrwhist
-bundle/*
-!bundle/vundle
+bundle/
+plugged/
 spell/*.spl

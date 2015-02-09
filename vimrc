@@ -1,5 +1,5 @@
 " Load list of plugins
-source ~/.vim/vundle.vim
+source ~/.vim/plugins.vim
 
 filetype plugin indent on
 syntax on
