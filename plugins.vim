@@ -41,5 +41,8 @@ Plug 'mattn/webapi-vim'
 Plug 'vim-scripts/Gist.vim', { 'on': 'Gist' }
 Plug 'vim-scripts/incsearch.vim'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
+Plug 'zah/nimrod.vim', { 'for': 'nim' }
+Plug 'edkolev/tmuxline.vim'
+Plug 'wting/rust.vim', { 'for': 'rust' }
 
 call plug#end()
