@@ -44,5 +44,6 @@ Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'zah/nimrod.vim', { 'for': 'nim' }
 Plug 'edkolev/tmuxline.vim'
 Plug 'wting/rust.vim', { 'for': 'rust' }
+Plug 'ryanss/vim-hackernews', { 'on': 'HackerNews' }
 
 call plug#end()
