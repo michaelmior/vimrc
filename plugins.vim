@@ -45,5 +45,8 @@ Plug 'zah/nimrod.vim', { 'for': 'nim' }
 Plug 'edkolev/tmuxline.vim'
 Plug 'wting/rust.vim', { 'for': 'rust' }
 Plug 'ryanss/vim-hackernews', { 'on': 'HackerNews' }
+Plug 'spf13/PIV', { 'for': 'php' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'mxw/vim-jsx', { 'for': 'javascript' }
 
 call plug#end()
