@@ -27,7 +27,7 @@ Plug 'chrisbra/csv.vim', { 'for': 'csv' }
 Plug 'majutsushi/tagbar'
 Plug 'nginx/nginx', {'rtp': 'contrib/vim/'}
 Plug 'hura/vim-asymptote', { 'for': 'asy' }
-Plug 'vim-scripts/AnsiEsc.vim'
+Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
 Plug 'kien/ctrlp.vim'
 Plug 'wlangstroth/vim-racket', { 'for': 'racket' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
@@ -48,5 +48,15 @@ Plug 'ryanss/vim-hackernews', { 'on': 'HackerNews' }
 Plug 'spf13/PIV', { 'for': 'php' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'mxw/vim-jsx', { 'for': 'javascript' }
+Plug 'wesQ3/vim-windowswap'
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'othree/html5.vim', { 'for': 'html' }
+Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'Raimondi/delimitMate'
+Plug 'jez/vim-superman', { 'on': 'SuperMan' }
+Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
+Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
+Plug 'tpope/vim-liquid', { 'for': 'liquid' }
+Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 
 call plug#end()
