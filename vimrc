@@ -207,3 +207,6 @@ nnoremap Q <nop>
 
 " Faster syntax checking with JRuby
 let $JRUBY_OPTS = '--dev'
+
+" Shortcut for writing file with sudo
+cmap w!! w !sudo tee % >/dev/null
