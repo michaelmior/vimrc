@@ -58,5 +58,6 @@ Plug 'ekalinin/Dockerfile.vim', { 'for': 'Dockerfile' }
 Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'tpope/vim-liquid', { 'for': 'liquid' }
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
+Plug 'vim-scripts/a.vim'
 
 call plug#end()
