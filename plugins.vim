@@ -62,5 +62,6 @@ Plug 'vim-scripts/a.vim'
 Plug 'kana/vim-textobj-user'
 Plug 'rhysd/vim-textobj-ruby', { 'for': 'ruby' }
 Plug 'itchyny/calendar.vim', { 'on': 'Calendar' }
+Plug 'tpope/vim-characterize'
 
 call plug#end()
