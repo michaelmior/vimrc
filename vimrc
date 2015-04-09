@@ -210,3 +210,6 @@ let $JRUBY_OPTS = '--dev'
 
 " Shortcut for writing file with sudo
 cmap w!! w !sudo tee % >/dev/null
+
+" Google Calendar
+let g:calendar_google_calendar = 1

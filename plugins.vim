@@ -59,5 +59,6 @@ Plug 'digitaltoad/vim-jade', { 'for': 'jade' }
 Plug 'tpope/vim-liquid', { 'for': 'liquid' }
 Plug 'cakebaker/scss-syntax.vim', { 'for': 'scss' }
 Plug 'vim-scripts/a.vim'
+Plug 'itchyny/calendar.vim', { 'on': 'Calendar' }
 
 call plug#end()
