@@ -32,3 +32,4 @@ QCRI
 backends
 retargets
 backend
+LevelDB
