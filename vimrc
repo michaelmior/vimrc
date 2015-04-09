@@ -209,3 +209,23 @@ cmap w!! w !sudo tee % >/dev/null
 
 " Google Calendar
 let g:calendar_google_calendar = 1
+
+" Add vim-signify highlighting to vim-signature
+function! SignatureVimSignify(lnum)
+  call sy#sign#get_current_signs()
+
+  if has_key(b:sy.internal, a:lnum)
+    let type = b:sy.internal[a:lnum]['type']
+    if type =~ 'SignifyAdd'
+      return 'DiffAdd'
+    elseif type =~ 'SignifyChange'
+      return 'DiffChange'
+    elseif type =~ 'SignifyDelete'
+      return 'DiffDelete'
+    end
+  else
+    return 'Exception'
+  endif
+endfunction
+
+let g:SignatureMarkTextHL = 'SignatureVimSignify(a:lnum)'
