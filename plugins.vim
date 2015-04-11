@@ -64,5 +64,7 @@ Plug 'rhysd/vim-textobj-ruby', { 'for': 'ruby' }
 Plug 'itchyny/calendar.vim', { 'on': 'Calendar' }
 Plug 'tpope/vim-characterize'
 Plug 'kshenoy/vim-signature'
+Plug 'bps/vim-textobj-python', { 'for': 'python' }
+Plug 'rbonvall/vim-textobj-latex', { 'for': ['tex', 'plaintex'] }
 
 call plug#end()
