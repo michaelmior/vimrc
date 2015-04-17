@@ -212,3 +212,5 @@ let g:calendar_google_calendar = 1
 
 " Add vim-signify highlighting to vim-signature
 let g:SignatureMarkTextHLDynamic = 1
+
+set pastetoggle=<F3>
