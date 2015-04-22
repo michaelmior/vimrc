@@ -217,3 +217,16 @@ set pastetoggle=<F3>
 
 " Use a darker colour to mark indentation
 let g:indentLine_color_term = 239
+
+" Add mappings for vim-test
+nmap <silent> <leader>t :TestNearest<CR>
+nmap <silent> <leader>T :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
+
+" Make test commands execute using vimux
+if strlen($TMUX)
+  let test#strategy = "vimux"
+  autocmd VimLeave * VimuxCloseRunner
+endif

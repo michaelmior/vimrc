@@ -42,7 +42,6 @@ Plug 'vim-scripts/Gist.vim', { 'on': 'Gist' }
 Plug 'vim-scripts/incsearch.vim'
 Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
 Plug 'zah/nimrod.vim', { 'for': 'nim' }
-Plug 'edkolev/tmuxline.vim'
 Plug 'wting/rust.vim', { 'for': 'rust' }
 Plug 'ryanss/vim-hackernews', { 'on': 'HackerNews' }
 Plug 'spf13/PIV', { 'for': 'php' }
@@ -68,5 +67,11 @@ Plug 'bps/vim-textobj-python', { 'for': 'python' }
 Plug 'rbonvall/vim-textobj-latex', { 'for': ['tex', 'plaintex'] }
 Plug 'sk1418/HowMuch'
 Plug 'Yggdroot/indentLine'
+Plug 'janko-m/vim-test'
+
+if strlen($TMUX)
+  Plug 'benmills/vimux'
+  Plug 'edkolev/tmuxline.vim'
+endif
 
 call plug#end()
