@@ -214,3 +214,6 @@ let g:calendar_google_calendar = 1
 let g:SignatureMarkTextHLDynamic = 1
 
 set pastetoggle=<F3>
+
+" Use a darker colour to mark indentation
+let g:indentLine_color_term = 239

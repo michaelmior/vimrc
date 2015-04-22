@@ -67,5 +67,6 @@ Plug 'kshenoy/vim-signature'
 Plug 'bps/vim-textobj-python', { 'for': 'python' }
 Plug 'rbonvall/vim-textobj-latex', { 'for': ['tex', 'plaintex'] }
 Plug 'sk1418/HowMuch'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
