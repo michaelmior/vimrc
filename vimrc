@@ -65,7 +65,7 @@ map <up> <ESC>:tabn<RETURN>
 map <down> <ESC>:tabp<RETURN>
 
 " Disable search highlighting
-map <Bslash> :nohls<cr>
+map <Bslash> :nohls<CR>:call MarkMultipleClean()<CR>
 
 " Show trailing whitespace and tabs when not using insert mode
 set list
@@ -230,3 +230,6 @@ if strlen($TMUX)
   let test#strategy = "vimux"
   autocmd VimLeave * VimuxCloseRunner
 endif
+
+" Allow Control-Z to work in insert mode
+inoremap <C-Z> <Esc><C-Z>a
