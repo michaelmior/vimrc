@@ -233,3 +233,7 @@ endif
 
 " Allow Control-Z to work in insert mode
 inoremap <C-Z> <Esc><C-Z>a
+
+" Open new split panes below and right
+set splitbelow
+set splitright
