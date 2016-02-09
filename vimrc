@@ -88,6 +88,12 @@ let g:syntastic_javascript_checker = 'jshint'
 let g:syntastic_python_checker_args = '--ignore=E124,E126,E127,E128'
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "active_filetypes": [],
+    \ "passive_filetypes": ["java"] }
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
