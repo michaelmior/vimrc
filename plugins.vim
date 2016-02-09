@@ -70,6 +70,7 @@ Plug 'vim-ruby/vim-ruby',                           { 'for': 'ruby' }
 Plug 'wting/rust.vim',                              { 'for': 'rust' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
 Plug 'git://git.code.sf.net/p/vim-latex/vim-latex', { 'for': ['tex', 'plaintex'] }
+Plug 'gittup/tup',                                  { 'for': 'tup', 'rtp': 'contrib' }
 
 " tmux-specific plugins
 if strlen($TMUX)
