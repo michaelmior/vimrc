@@ -52,6 +52,7 @@ Plug 'guns/vim-clojure-static',                     { 'for': 'clojure' }
 Plug 'kchmck/vim-coffee-script',                    { 'for': 'coffee' }
 Plug 'chrisbra/csv.vim',                            { 'for': 'csv' }
 Plug 'ekalinin/Dockerfile.vim',                     { 'for': 'Dockerfile' }
+Plug 'dag/vim-fish',                                { 'for':  'fish' }
 Plug 'fatih/vim-go',                                { 'for': 'go' }
 Plug 'vim-scripts/gnuplot.vim',                     { 'for': 'gnuplot' }
 Plug 'othree/html5.vim',                            { 'for': 'html' }
