@@ -27,6 +27,7 @@ Plug 'bling/vim-airline'
 Plug 'tpope/vim-bundler', { 'for': 'ruby' }
 Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-commentary'
+Plug 'ryanoasis/vim-devicons'
 Plug 'justincampbell/vim-eighties'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
