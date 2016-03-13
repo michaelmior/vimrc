@@ -9,7 +9,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
 Plug 'itchyny/calendar.vim', { 'on': 'Calendar' }
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
