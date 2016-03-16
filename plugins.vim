@@ -52,6 +52,7 @@ Plug 'hura/vim-asymptote',                          { 'for': 'asy' }
 Plug 'guns/vim-clojure-static',                     { 'for': 'clojure' }
 Plug 'kchmck/vim-coffee-script',                    { 'for': 'coffee' }
 Plug 'chrisbra/csv.vim',                            { 'for': 'csv' }
+Plug 'elubow/cql-vim',                              { 'for': 'cql' }
 Plug 'ekalinin/Dockerfile.vim',                     { 'for': 'Dockerfile' }
 Plug 'dag/vim-fish',                                { 'for':  'fish' }
 Plug 'fatih/vim-go',                                { 'for': 'go' }
