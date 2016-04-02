@@ -4,7 +4,8 @@ set wildignorecase
 filetype off                  " required
 
 " Intialize vim-plug
-call plug#begin('~/.vim/plugged')
+let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+call plug#begin(s:path . '/plugged')
 
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
