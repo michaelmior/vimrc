@@ -1,0 +1,5 @@
+We should stay in visual mode after indenting
+
+  > iA<CR>B<ESC>ggVj>><ESC>
+      A
+      B

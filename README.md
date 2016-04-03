@@ -1,5 +1,7 @@
 # vimrc
 
+[![Build Status](https://travis-ci.org/michaelmior/vimrc.svg)](https://travis-ci.org/michaelmior/vimrc)
+
 This is my personal vim configuration.
 In an effort to make it potentially usable by others, some basic installation steps are given below.
 
