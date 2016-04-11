@@ -9,7 +9,6 @@ call plug#begin(s:path . '/plugged')
 
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
-Plug 'itchyny/calendar.vim', { 'on': 'Calendar' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'editorconfig/editorconfig-vim'
