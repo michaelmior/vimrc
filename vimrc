@@ -74,9 +74,6 @@ set listchars=tab:>·,trail:·
 autocmd InsertEnter * set nolist
 autocmd InsertLeave * set list
 
-" Fix paste to match indentation levels
-nnoremap p p`[v`]=
-
 " Prettify JSON
 map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
