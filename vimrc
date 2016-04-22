@@ -1,3 +1,8 @@
+if has('nvim')
+  let g:python_host_prog = '/usr/bin/python'
+  let g:python3_host_prog = '/usr/bin/python3'
+endif
+
 " Load list of plugins
 runtime plugins.vim
 
@@ -78,7 +83,9 @@ autocmd InsertLeave * set list
 map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 
 set laststatus=2
-set encoding=utf-8
+if !has('nvim')
+  set encoding=utf-8
+endif
 let g:airline#extensions#disable_rtp_load = 1
 let g:syntastic_objc_checker = ''
 let g:syntastic_javascript_checker = 'jshint'
