@@ -71,7 +71,7 @@ map <up> <ESC>:tabn<RETURN>
 map <down> <ESC>:tabp<RETURN>
 
 " Disable search highlighting
-map <Bslash> :nohls<CR>:call MarkMultipleClean()<CR>
+map <Bslash> :nohls<CR>
 
 " Show trailing whitespace and tabs when not using insert mode
 set list
