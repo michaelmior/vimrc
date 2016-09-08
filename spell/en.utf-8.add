@@ -1,4 +1,3 @@
-#ontradcitory
 ADT
 AMD
 AST
@@ -27,6 +26,8 @@ Codd
 Coign
 ConQuer
 CouchDB
+DAO
+DAOs
 DB2
 DBDesigner
 DBUS
@@ -40,6 +41,7 @@ EER
 ERQL
 ERS
 EasyAntiCheat
+FDs
 GMAP
 Gadkari
 GitHub
@@ -53,6 +55,7 @@ HyperDex
 IDNF
 IEEEtran
 ILP
+INDs
 INUM
 JDBC
 Kanade
@@ -67,6 +70,7 @@ LevelDB
 Levene
 Liu
 Lua
+Mannila
 MapReduce
 MessagePack
 Mior
@@ -119,7 +123,6 @@ Vertica's
 XSQL
 Xeon
 YCSB
-YCSB
 Zodnik
 ZooKeeper
 backend
@@ -137,6 +140,7 @@ deserializes
 eBay
 expressivity
 metadata
+microblogging
 multiplayer
 namespacing
 nginx
