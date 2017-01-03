@@ -76,6 +76,7 @@ Plug 'treycordova/rustpeg.vim',                     { 'for': 'rust.rustpeg' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
 Plug 'lervag/vimtex',                               { 'for': ['tex', 'plaintex'] }
 Plug 'gittup/tup',                                  { 'for': 'tup', 'rtp': 'contrib' }
+Plug 'posva/vim-vue',                               { 'for': 'vue' }
 
 " tmux-specific plugins
 if strlen($TMUX)
