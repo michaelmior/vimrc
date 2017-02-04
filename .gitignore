@@ -1,5 +1,6 @@
 .netrwhist
 bundle/
 plugged/
+plug.vim.old
 spell/*.spl
 spell/*.sug
