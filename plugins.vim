@@ -12,6 +12,9 @@ Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'Raimondi/delimitMate'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi', { 'for': 'python' }
+Plug 'sebastianmarkow/deoplete-rust', { 'for': 'rust' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'vim-scripts/Gist.vim', { 'on': 'Gist' }
@@ -20,6 +23,7 @@ Plug 'vim-scripts/incsearch.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'tmhedberg/matchit'
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
+Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'scrooloose/syntastic'
 Plug 'godlygeek/tabular'

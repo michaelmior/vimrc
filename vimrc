@@ -6,6 +6,12 @@ endif
 " Load list of plugins
 runtime plugins.vim
 
+if has('nvim')
+  call deoplete#enable()
+  " deoplete tab-complete
+  inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+endif
+
 filetype plugin indent on
 syntax on
 
