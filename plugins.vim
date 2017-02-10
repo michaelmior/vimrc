@@ -55,11 +55,13 @@ Plug 'mattn/webapi-vim'
 " Add filetype plugins
 Plug 'hura/vim-asymptote',                          { 'for': 'asy' }
 Plug 'guns/vim-clojure-static',                     { 'for': 'clojure' }
+Plug 'cstrahan/vim-capnp',                          { 'for': 'capnp' }
 Plug 'kchmck/vim-coffee-script',                    { 'for': 'coffee' }
 Plug 'chrisbra/csv.vim',                            { 'for': 'csv' }
 Plug 'elubow/cql-vim',                              { 'for': 'cql' }
 Plug 'ekalinin/Dockerfile.vim',                     { 'for': 'Dockerfile' }
-Plug 'dag/vim-fish',                                { 'for':  'fish' }
+Plug 'dcharbon/vim-flatbuffers',                    { 'for': 'fbs' }
+Plug 'dag/vim-fish',                                { 'for': 'fish' }
 Plug 'fatih/vim-go',                                { 'for': 'go' }
 Plug 'vim-scripts/gnuplot.vim',                     { 'for': 'gnuplot' }
 Plug 'othree/html5.vim',                            { 'for': 'html' }
@@ -79,6 +81,7 @@ Plug 'wting/rust.vim',                              { 'for': ['rust', 'rust.rust
 Plug 'treycordova/rustpeg.vim',                     { 'for': 'rust.rustpeg' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
 Plug 'lervag/vimtex',                               { 'for': ['tex', 'plaintex'] }
+Plug 'cespare/vim-toml',                            { 'for': 'toml' }
 Plug 'gittup/tup',                                  { 'for': 'tup', 'rtp': 'contrib' }
 Plug 'posva/vim-vue',                               { 'for': 'vue' }
 
