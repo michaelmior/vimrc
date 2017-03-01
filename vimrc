@@ -241,6 +241,8 @@ set pastetoggle=<F3>
 " Use a darker colour to mark indentation
 let g:indentLine_color_term = 239
 
+let g:EditorConfig_core_mode = "external_command"
+
 " Add mappings for vim-test
 nmap <silent> <leader>t :TestNearest<CR>
 nmap <silent> <leader>T :TestFile<CR>
