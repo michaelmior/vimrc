@@ -62,7 +62,7 @@ Plug 'elubow/cql-vim',                              { 'for': 'cql' }
 Plug 'ekalinin/Dockerfile.vim',                     { 'for': 'Dockerfile' }
 Plug 'dcharbon/vim-flatbuffers',                    { 'for': 'fbs' }
 Plug 'dag/vim-fish',                                { 'for': 'fish' }
-Plug 'fatih/vim-go',                                { 'for': 'go' }
+Plug 'fatih/vim-go',                                { 'for': 'go', 'do': ':GoInstallBinaries' }
 Plug 'vim-scripts/gnuplot.vim',                     { 'for': 'gnuplot' }
 Plug 'othree/html5.vim',                            { 'for': 'html' }
 Plug 'digitaltoad/vim-jade',                        { 'for': 'jade' }
