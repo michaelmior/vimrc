@@ -7,7 +7,7 @@ endif
 runtime plugins.vim
 
 if has('nvim')
-  call deoplete#enable()
+  silent! call deoplete#enable()
   " deoplete tab-complete
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 endif
