@@ -25,8 +25,8 @@ Plug 'Yggdroot/indentLine'
 Plug 'tmhedberg/matchit'
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
+Plug 'neomake/neomake'
 Plug 'AndrewRadev/splitjoin.vim'
-Plug 'scrooloose/syntastic'
 Plug 'godlygeek/tabular'
 Plug 'majutsushi/tagbar'
 Plug 'vim-airline/vim-airline'

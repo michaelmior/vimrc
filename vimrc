@@ -92,18 +92,14 @@ set laststatus=2
 if !has('nvim')
   set encoding=utf-8
 endif
+
 let g:airline#extensions#disable_rtp_load = 1
-let g:syntastic_objc_checker = ''
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_mode_map = {
-    \ "mode": "active",
-    \ "active_filetypes": [],
-    \ "passive_filetypes": ["java"] }
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
+
+autocmd! BufWritePost * Neomake
+let g:neomake_javascript_enabled_makers = ['eslint']
+let g:neomake_ruby_enabled_makers = ['rubocop']
 
 " Restore cursor position on load
 set viminfo='10,\"100,:20,%,n~/.viminfo
