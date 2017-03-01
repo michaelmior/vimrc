@@ -7,6 +7,11 @@ before_script:
   # Install vim
   - sudo apt-get install vim-gnome
 
+  # Install editorconfig
+  - sudo apt-get install cmake libpcre3-dev
+  - git clone https://github.com/editorconfig/editorconfig-core-c.git
+  - (cd editorconfig-core-c; cmake . && sudo make install)
+
   # Vroom's vim mode currently requires a running X server
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
