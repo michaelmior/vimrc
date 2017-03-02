@@ -18,11 +18,8 @@ Plug 'padawan-php/deoplete-padawan', { 'for': 'php' }
 Plug 'sebastianmarkow/deoplete-rust', { 'for': 'rust' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
-Plug 'vim-scripts/Gist.vim', { 'on': 'Gist' }
-Plug 'sk1418/HowMuch'
 Plug 'vim-scripts/incsearch.vim'
 Plug 'Yggdroot/indentLine'
-Plug 'tmhedberg/matchit'
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'neomake/neomake'
@@ -51,7 +48,6 @@ Plug 'bps/vim-textobj-python', { 'for': 'python' }
 Plug 'kana/vim-textobj-user'
 Plug 'tpope/vim-unimpaired'
 Plug 'wesQ3/vim-windowswap'
-Plug 'mattn/webapi-vim'
 
 " Add filetype plugins
 Plug 'hura/vim-asymptote',                          { 'for': 'asy' }
