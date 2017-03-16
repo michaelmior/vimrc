@@ -12,6 +12,8 @@ if has('nvim')
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 endif
 
+let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0
+
 filetype plugin indent on
 syntax on
 
