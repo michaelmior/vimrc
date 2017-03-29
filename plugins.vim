@@ -76,6 +76,7 @@ Plug 'wlangstroth/vim-racket',                      { 'for': 'racket' }
 Plug 'vim-ruby/vim-ruby',                           { 'for': 'ruby' }
 Plug 'wting/rust.vim',                              { 'for': ['rust', 'rust.rustpeg'] }
 Plug 'treycordova/rustpeg.vim',                     { 'for': 'rust.rustpeg' }
+Plug 'derekwyatt/vim-scala',                        { 'for': 'scala' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
 Plug 'lervag/vimtex',                               { 'for': ['tex', 'plaintex'] }
 Plug 'cespare/vim-toml',                            { 'for': 'toml' }
