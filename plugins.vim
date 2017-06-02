@@ -69,7 +69,7 @@ Plug 'elzr/vim-json',                               { 'for': 'json' }
 Plug 'groenewege/vim-less',                         { 'for': 'less' }
 Plug 'tpope/vim-liquid',                            { 'for': 'liquid' }
 Plug 'plasticboy/vim-markdown',                     { 'for': 'mkd' }
-Plug 'nginx/nginx',                                 { 'for': 'nginx', 'rtp': 'contrib/vim/' }
+Plug 'chr4/nginx.vim',                              { 'for': 'nginx' }
 Plug 'zah/nimrod.vim',                              { 'for': 'nim' }
 Plug 'spf13/PIV',                                   { 'for': 'php' }
 Plug 'wlangstroth/vim-racket',                      { 'for': 'racket' }
