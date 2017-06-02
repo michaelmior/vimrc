@@ -55,6 +55,7 @@ datastore
 datastores
 DB2
 DBDesigner
+DBPL
 DBRE
 DBUS
 DCTCP
@@ -112,6 +113,7 @@ Levene
 lifecycle
 Liu
 Lua
+Lua's
 MADD
 Makowsky
 Mannila
@@ -199,6 +201,7 @@ tradeoff
 tradeoffs
 transpilation
 Transpilation
+transpile
 transpiling
 Twissandra
 Ubuntu
@@ -210,6 +213,7 @@ Vertica
 Vertica's
 virtualization
 VLDB
+VoltDB
 Xeon
 Xiong
 XSQL
