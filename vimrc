@@ -203,6 +203,9 @@ elseif executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
+nnoremap <C-M-P> :CtrlPBuffer<CR>
+let g:ctrlp_match_window = 'results:20'
+
 au BufRead,BufNewFile *.plt,*.gnuplot set ft=gnuplot
 au BufRead,BufNewFile .simplecov set ft=ruby
 
