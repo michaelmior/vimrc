@@ -37,7 +37,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'tpope/vim-repeat'
-Plug 'kshenoy/vim-signature'
 Plug 'mhinz/vim-signify'
 Plug 'jez/vim-superman', { 'on': 'SuperMan' }
 Plug 'tpope/vim-surround'
