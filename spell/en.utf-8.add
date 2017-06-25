@@ -84,9 +84,12 @@ GMAP
 Gomes
 Google's
 Gurobi
+Hadoop
 Harren
 HBase
+HDFS
 Hedera
+HiBench
 HiveQL
 HPE
 HyperDex
@@ -98,6 +101,7 @@ interarrival
 INUM
 JDBC
 JSON
+Kafka
 Kanade
 Kanellakis
 Karpathy
@@ -139,6 +143,7 @@ NoSE
 NoSE's
 NoSQL
 NSERC
+Nutch
 offline
 OLAP
 OLR
@@ -154,6 +159,7 @@ performant
 pFabric
 PHP
 plugin
+plugins
 PQO
 prefetching
 Premerlani
