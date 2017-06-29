@@ -12,6 +12,7 @@ if has('nvim')
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 endif
 
+let $COLORTERM = "gnome-terminal"
 let $NVIM_TUI_ENABLE_CURSOR_SHAPE = 0
 
 filetype plugin indent on
