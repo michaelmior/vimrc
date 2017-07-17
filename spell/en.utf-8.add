@@ -116,6 +116,7 @@ LevelDB
 Levene
 lifecycle
 Liu
+LRU
 Lua
 Lua's
 MADD
@@ -167,6 +168,9 @@ QCRI
 QMapper
 QUELEA
 Rasin
+RDD
+RDDs
+recomputation
 Redis
 renormalize
 retarget
