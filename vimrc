@@ -105,6 +105,7 @@ autocmd! BufWritePost * Neomake
 let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_ruby_enabled_makers = ['rubocop']
 let g:neomake_scala_enabled_makers = ['scalac']
+let g:neomake_tex_enabled_makers = ['chktex', 'rubberinfo']
 
 " Restore cursor position on load
 set viminfo='10,\"100,:20,%,n~/.viminfo
