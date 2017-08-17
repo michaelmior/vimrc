@@ -26,7 +26,9 @@ set undoreload=10000
 
 set background=dark
 colorscheme hybrid
+highlight Normal ctermbg=NONE
 highlight ColorColumn ctermbg=red
+highlight SignColumn ctermbg=NONE
 
 set tabstop=4
 set shiftwidth=4
@@ -267,3 +269,6 @@ inoremap <C-Z> <Esc><C-Z>a
 " Open new split panes below and right
 set splitbelow
 set splitright
+
+autocmd BufRead *.rs :setlocal tags=./rusty-tags.vi;/
+autocmd BufWrite *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expand('%:p:h') . "&" <bar> redraw!
