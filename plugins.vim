@@ -73,7 +73,7 @@ Plug 'zah/nimrod.vim',                              { 'for': 'nim' }
 Plug 'spf13/PIV',                                   { 'for': 'php' }
 Plug 'wlangstroth/vim-racket',                      { 'for': 'racket' }
 Plug 'vim-ruby/vim-ruby',                           { 'for': 'ruby' }
-Plug 'wting/rust.vim',                              { 'for': ['rust', 'rust.rustpeg'] }
+Plug 'rust-lang/rust.vim',                          { 'for': ['rust', 'rust.rustpeg'] }
 Plug 'treycordova/rustpeg.vim',                     { 'for': 'rust.rustpeg' }
 Plug 'derekwyatt/vim-scala',                        { 'for': 'scala' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
