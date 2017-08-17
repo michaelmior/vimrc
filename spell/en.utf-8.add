@@ -13,6 +13,7 @@ Ashraf
 AST
 Atzeni
 AutoAdmin
+Avro
 backend
 backends
 Badia
@@ -31,6 +32,8 @@ Catalin
 Cattell
 Chaudhuri
 Chowdury
+Chu
+CLI
 CloneCloud
 CloudTPS
 Codd
@@ -67,6 +70,7 @@ DHTs
 DiScala
 Dogar
 DSCP
+DSG
 EasyAntiCheat
 eBay
 EC2
@@ -77,9 +81,12 @@ EER
 ERQL
 ERS
 expressivity
+Farid
 FDs
 Gadkari
+genomics
 GitHub
+Gitter
 GMAP
 Gomes
 Google's
@@ -161,6 +168,7 @@ pFabric
 PHP
 plugin
 plugins
+postdocs
 PQO
 prefetching
 Premerlani
@@ -209,6 +217,7 @@ timestamp
 TPC
 tradeoff
 tradeoffs
+transformative
 transpilation
 Transpilation
 transpile
@@ -216,6 +225,7 @@ transpiling
 Twissandra
 Ubuntu
 UML
+uncached
 username
 Vajk
 Varys
@@ -224,9 +234,11 @@ Vertica's
 virtualization
 VLDB
 VoltDB
+workflow
 Xeon
 Xiong
 XSQL
+Xu
 YCSB
 Zodnik
 ZooKeeper
