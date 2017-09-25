@@ -71,6 +71,7 @@ Plug 'plasticboy/vim-markdown',                     { 'for': 'mkd' }
 Plug 'chr4/nginx.vim',                              { 'for': 'nginx' }
 Plug 'zah/nimrod.vim',                              { 'for': 'nim' }
 Plug 'spf13/PIV',                                   { 'for': 'php' }
+Plug 'jalvesaq/Nvim-R',                             { 'for': 'r' }
 Plug 'wlangstroth/vim-racket',                      { 'for': 'racket' }
 Plug 'vim-ruby/vim-ruby',                           { 'for': 'ruby' }
 Plug 'rust-lang/rust.vim',                          { 'for': ['rust', 'rust.rustpeg'] }
