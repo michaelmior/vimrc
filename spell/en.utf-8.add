@@ -19,6 +19,7 @@ backends
 Badia
 Bailis
 Balegas
+Ballani
 Baraat
 BCNF
 Bertino
@@ -44,6 +45,7 @@ Coign
 colocate
 colocated
 colocating
+committers
 ConQuer
 CoPhy
 CORADD
@@ -78,6 +80,7 @@ ECMP
 ECN
 EEJF
 EER
+Elasticsearch
 ERQL
 ERS
 expressivity
@@ -107,6 +110,7 @@ INDs
 interarrival
 INUM
 JDBC
+JDK
 JSON
 Kafka
 Kanade
@@ -126,6 +130,7 @@ Liu
 LRU
 Lua
 Lua's
+macOS
 MADD
 Makowsky
 Mannila
@@ -135,6 +140,7 @@ Mellanox
 MessagePack
 metadata
 michaelmior
+microbenchmark
 microblogging
 MicroFuge
 Mininet
@@ -142,9 +148,12 @@ Mior
 MongoDB
 multiplayer
 MySQL
+NAC
 namespacing
+Naumann
 Netflix
 NetStore
+NetStore's
 nginx
 NoAM
 NoSE
@@ -162,9 +171,12 @@ ORMs
 oversubscription
 P2P
 Papadomanolakis
+Papenbrock
+passphrase
 Pavlo
 performant
 pFabric
+PGP
 PHP
 plugin
 plugins
@@ -214,6 +226,7 @@ superkeys
 Supermicro
 terabytes
 timestamp
+ToR
 TPC
 tradeoff
 tradeoffs
@@ -240,5 +253,6 @@ Xiong
 XSQL
 Xu
 YCSB
+Zipfian
 Zodnik
 ZooKeeper
