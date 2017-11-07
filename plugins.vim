@@ -86,6 +86,7 @@ Plug 'posva/vim-vue',                               { 'for': 'vue' }
 " tmux-specific plugins
 if strlen($TMUX)
   Plug 'benmills/vimux'
+  Plug 'wellle/tmux-complete.vim'
 
   " Disabled since configuration has been manually applied
   " Plug 'edkolev/tmuxline.vim'
