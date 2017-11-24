@@ -11,6 +11,8 @@ Plug 'chreekat/vim-paren-crosshairs'
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'JazzCore/ctrlp-cmatcher', { 'do': ':!~/.vim/plugged/ctrlp-cmatcher/install.sh' }
 Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi', { 'for': 'python' }

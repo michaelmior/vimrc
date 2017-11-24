@@ -209,7 +209,9 @@ elseif executable('ag')
 endif
 
 nnoremap <C-M-P> :CtrlPBuffer<CR>
+nnoremap <C-F> :CtrlPFunky<CR>
 let g:ctrlp_match_window = 'results:20'
+let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 
 au BufRead,BufNewFile *.plt,*.gnuplot set ft=gnuplot
 au BufRead,BufNewFile .simplecov set ft=ruby
