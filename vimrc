@@ -1,4 +1,3 @@
-set guicursor=
 if has('nvim')
   let g:python_host_prog = '/usr/bin/python'
   let g:python3_host_prog = '/usr/bin/python3'
@@ -279,3 +278,11 @@ autocmd BufWrite *.rs :silent! exec "!rusty-tags vi --quiet --start-dir=" . expa
 xnoremap <silent> gy "+y
 xnoremap <silent> gp "+p
 nnoremap <silent> gp "+p
+
+" Move paragraphs by backspace/return
+nnoremap <BS> {
+onoremap <BS> {
+vnoremap <BS> {
+nnoremap <expr> <CR> empty(&buftype) ? '}' : '<CR>'
+onoremap <expr> <CR> empty(&buftype) ? '}' : '<CR>'
+vnoremap <CR> }
