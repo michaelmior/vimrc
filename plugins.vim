@@ -10,6 +10,7 @@ call plug#begin(s:path . '/plugged')
 Plug 'chreekat/vim-paren-crosshairs'
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
+Plug 'rhysd/clever-f.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tacahiroy/ctrlp-funky'
 Plug 'JazzCore/ctrlp-cmatcher', { 'do': ':!~/.vim/plugged/ctrlp-cmatcher/install.sh' }
