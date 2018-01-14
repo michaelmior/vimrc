@@ -13,6 +13,7 @@ Ashraf
 AST
 Atzeni
 AutoAdmin
+Avatica
 Avro
 backend
 backends
@@ -52,12 +53,14 @@ CORADD
 Cosmadakis
 CouchDB
 CQL
+Cui
 DAO
 DAOs
 datacenter
 datacenters
 datastore
 datastores
+Daudjee
 DB2
 DBDesigner
 DBPL
@@ -120,6 +123,8 @@ Kafka
 Kanade
 Kanellakis
 Karpathy
+Keras
+Khuzaima
 Kifer
 Kraska
 Kundera
@@ -147,6 +152,7 @@ michaelmior
 microbenchmark
 microblogging
 MicroFuge
+Middleware
 Mininet
 Mior
 MongoDB
@@ -156,6 +162,7 @@ NAC
 namespacing
 Naumann
 Netflix
+Netstore
 NetStore
 NetStore's
 NewSQL
@@ -167,6 +174,7 @@ NoSE's
 NoSQL
 NSERC
 Nutch
+ODBC
 offline
 OLAP
 OLR
@@ -192,6 +200,7 @@ PQO
 prefetching
 Premerlani
 preorder
+programmatically
 QCRI
 QMapper
 QUELEA
@@ -207,12 +216,14 @@ retargets
 Reusability
 Riak
 RIDL
+Rizvi
 RTT
 RUBiS
 RUBiS's
 Rui
 S2PL
 SAEFIS
+Sajjad
 sandboxed
 SATA
 Scherzinger
@@ -220,6 +231,7 @@ screensaver
 SDN
 SEBF
 serializability
+sessional
 SIGMOD
 SIGOPS
 SimpleDB
@@ -236,6 +248,7 @@ Supermicro
 SYSTOR
 TANE
 terabytes
+Theano
 timestamp
 ToR
 TPC
@@ -250,6 +263,9 @@ Twissandra
 Ubuntu
 UML
 uncached
+unpersist
+unpersisted
+unpersisting
 username
 Vajk
 Varys
