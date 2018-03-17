@@ -10,6 +10,8 @@ if has('nvim')
   silent! call deoplete#enable()
   " deoplete tab-complete
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+  let g:deoplete#omni_patterns = {}
+  let g:deoplete#omni_patterns.tex = '\\\(cite\|ref\){'
 endif
 
 let $COLORTERM = "gnome-terminal"
