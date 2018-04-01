@@ -9,6 +9,8 @@ AMD
 Andersson
 API
 APIs
+app
+apps
 arXiv
 ASF
 Ashraf
@@ -62,6 +64,7 @@ CORADD
 Cosmadakis
 CouchDB
 CQL
+cron
 Cui
 Cygwin
 DAO
@@ -88,6 +91,7 @@ DiScala
 Dogar
 DSCP
 DSG
+dyno
 EasyAntiCheat
 eBay
 EC2
@@ -232,6 +236,7 @@ postdocs
 PostGIS
 PQO
 prefetching
+Pregel
 Premerlani
 preorder
 PrIter
