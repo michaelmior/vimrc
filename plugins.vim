@@ -40,6 +40,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'farmergreg/vim-lastplace'
+Plug 'tommcdo/vim-lion'
 Plug 'tpope/vim-repeat'
 Plug 'mhinz/vim-signify'
 Plug 'jez/vim-superman', { 'on': 'SuperMan' }
