@@ -267,7 +267,8 @@ if strlen($TMUX)
 endif
 
 " Allow Control-Z to work in insert mode
-inoremap <C-Z> <Esc><C-Z>a
+nnoremap <C-Z> :suspend<CR>:SignifyRefresh<CR>
+inoremap <C-Z> <C-O><C-Z>
 
 " Open new split panes below and right
 set splitbelow
