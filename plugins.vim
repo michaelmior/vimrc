@@ -30,6 +30,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
 Plug 'majutsushi/tagbar'
 Plug 'wellle/targets.vim'
+Plug 'ron89/thesaurus_query.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-bundler', { 'for': 'ruby' }
 Plug 'tpope/vim-characterize'
