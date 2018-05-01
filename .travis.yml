@@ -5,9 +5,7 @@ before_script:
   - sudo dpkg -i vroom_0.12.0-1_all.deb
 
   # Install vim
-  - sudo add-apt-repository -y ppa:pi-rho/dev
-  - sudo apt-get update
-  - sudo apt-get install vim
+  - sudo apt-get install vim-gnome
 
   # Install editorconfig
   - sudo apt-get install cmake libpcre3-dev
