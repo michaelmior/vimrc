@@ -289,3 +289,6 @@ vnoremap <BS> {
 nnoremap <expr> <CR> empty(&buftype) ? '}' : '<CR>'
 onoremap <expr> <CR> empty(&buftype) ? '}' : '<CR>'
 vnoremap <CR> }
+
+" Default to latex over plaintex
+let g:tex_flavor = "latex"
