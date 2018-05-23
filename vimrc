@@ -84,7 +84,7 @@ map <up> <ESC>:tabn<RETURN>
 map <down> <ESC>:tabp<RETURN>
 
 " Disable search highlighting
-map <Bslash> :nohls<CR>
+map <Bslash> :nohls<CR>:call clever_f#reset()<CR>
 
 " Show trailing whitespace and tabs when not using insert mode
 set list
