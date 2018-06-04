@@ -35,6 +35,7 @@ Bigtable
 BIP
 Blaha
 BNF
+Bobcaygeon
 Bugiotti
 bytecode
 Calle
@@ -105,6 +106,7 @@ ERQL
 ERS
 ESoN
 expressivity
+Eyal
 F1
 Farid
 FDs
@@ -152,6 +154,7 @@ Kafka
 Kanade
 Kanellakis
 Karpathy
+Kawartha
 Keras
 Khuzaima
 Kifer
@@ -256,6 +259,7 @@ README
 recomputation
 Redis
 reMarkable
+renormalization
 renormalize
 ResourceManager
 ReSpark
@@ -288,6 +292,7 @@ SimpleSQL
 SJF
 SLA
 SLF4J
+SnowFlock
 SoCC
 SparkBench
 SSD
@@ -318,7 +323,10 @@ UML
 uncached
 unpersist
 unpersisted
+unpersistence
 unpersisting
+unpersists
+UOIT
 username
 Vajk
 Varys
