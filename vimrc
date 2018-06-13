@@ -293,5 +293,9 @@ vnoremap <CR> }
 " Default to latex over plaintex
 let g:tex_flavor = "latex"
 
+" Hide . and .. in netrw
 let g:netrw_list_hide = '^\.\.\?/$'
 let g:netrw_hide = 1
+
+" Set correct comment for Debian source lists
+autocmd FileType debsources setlocal commentstring=#\ %s
