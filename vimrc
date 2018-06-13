@@ -299,3 +299,6 @@ let g:netrw_hide = 1
 
 " Set correct comment for Debian source lists
 autocmd FileType debsources setlocal commentstring=#\ %s
+
+" Fix thesaurus path
+let g:tq_openoffice_en_file="/usr/share/mythes/th_en_US_v2"
