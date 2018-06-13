@@ -20,6 +20,7 @@ AutoAdmin
 Avatica
 Avatica's
 Avro
+axiomatization
 backend
 backends
 Badia
@@ -32,6 +33,7 @@ Bertino
 BibTeX
 BigITQ
 Bigtable
+BigTable
 BIP
 Blaha
 BNF
@@ -46,6 +48,7 @@ checkpointed
 checkpointing
 Chowdury
 Chu
+CIFAR
 CLI
 CloneCloud
 CloudTPS
@@ -132,6 +135,7 @@ Hedera
 Heroku
 HiBench
 HiveQL
+hoc
 HPE
 HyperDex
 ICDE
@@ -171,6 +175,7 @@ Levene
 lifecycle
 Liu
 Log4j
+LOPQ
 LRU
 Lua
 Lua's
@@ -239,6 +244,7 @@ PHP
 plugin
 plugins
 PMC
+POIs
 postdocs
 PostGIS
 PQO
@@ -263,6 +269,7 @@ renormalization
 renormalize
 ResourceManager
 ReSpark
+ReSpark's
 retarget
 retargets
 Reusability
@@ -279,6 +286,7 @@ SAEFIS
 Sajjad
 sandboxed
 SATA
+SCC
 Scherzinger
 screensaver
 SDN
@@ -299,6 +307,7 @@ SSD
 Stolfo
 Strogatz
 subexpressions
+subgraph
 superkey
 superkeys
 Supermicro
@@ -321,6 +330,7 @@ Ubuntu
 UDF
 UML
 uncached
+unintuitively
 unpersist
 unpersisted
 unpersistence
