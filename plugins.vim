@@ -21,7 +21,6 @@ Plug 'padawan-php/deoplete-padawan', { 'for': 'php' }
 Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
-Plug 'vim-scripts/incsearch.vim'
 Plug 'Yggdroot/indentLine'
 Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
