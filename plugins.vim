@@ -78,6 +78,7 @@ Plug 'tpope/vim-liquid',                            { 'for': 'liquid' }
 Plug 'plasticboy/vim-markdown',                     { 'for': 'mkd' }
 Plug 'chr4/nginx.vim',                              { 'for': 'nginx' }
 Plug 'zah/nimrod.vim',                              { 'for': 'nim' }
+Plug 'c9s/perlomni.vim',                            { 'for': 'perl' }
 Plug 'spf13/PIV',                                   { 'for': 'php' }
 Plug 'jalvesaq/Nvim-R',                             { 'for': 'r' }
 Plug 'wlangstroth/vim-racket',                      { 'for': 'racket' }
