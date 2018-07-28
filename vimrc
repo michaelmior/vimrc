@@ -296,7 +296,10 @@ autocmd FileType debsources setlocal commentstring=#\ %s
 " Fix thesaurus path
 let g:tq_openoffice_en_file="/usr/share/mythes/th_en_US_v2"
 
-" Set up forward search for qpdfview
-let g:vimtex_view_general_viewer = 'qpdfview'
-let g:vimtex_view_general_options = '--unique @pdf\#src:@tex:@line:@col'
-let g:vimtex_view_general_options_latexmk = '--unique'
+" Set up forward search for mupdf
+let g:vimtex_view_method='mupdf'
+let g:vimtex_view_mupdf_send_keys='i'
+
+augroup vimtex_config
+  autocmd User VimtexEventInitPost silent VimtexCompile
+augroup END
