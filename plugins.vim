@@ -22,7 +22,6 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'Yggdroot/indentLine'
-Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'neomake/neomake'
@@ -99,6 +98,11 @@ if strlen($TMUX)
 
   " Disabled since configuration has been manually applied
   " Plug 'edkolev/tmuxline.vim'
+endif
+
+" neovim-specific plugins
+if has('nvim')
+  Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 endif
 
 call plug#end()
