@@ -49,7 +49,6 @@ Plug 'tpope/vim-repeat'
 Plug 'mhinz/vim-signify'
 Plug 'jez/vim-superman', { 'on': 'SuperMan' }
 Plug 'tpope/vim-surround'
-Plug 'janko-m/vim-test'
 Plug 'rbonvall/vim-textobj-latex', { 'for': ['tex', 'plaintex'] }
 Plug 'rhysd/vim-textobj-ruby', { 'for': 'ruby' }
 Plug 'bps/vim-textobj-python', { 'for': 'python' }

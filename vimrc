@@ -253,13 +253,6 @@ let g:indentLine_color_term = 239
 
 let g:EditorConfig_core_mode = "external_command"
 
-" Add mappings for vim-test
-nmap <silent> <leader>t :TestNearest<CR>
-nmap <silent> <leader>T :TestFile<CR>
-nmap <silent> <leader>a :TestSuite<CR>
-nmap <silent> <leader>l :TestLast<CR>
-nmap <silent> <leader>g :TestVisit<CR>
-
 " Make test commands execute using vimux
 if strlen($TMUX)
   let test#strategy = "vimux"
