@@ -209,7 +209,6 @@ namespacing
 Naumann
 NetBeans
 Netflix
-Netstore
 NetStore
 NetStore's
 NewSQL
@@ -278,6 +277,7 @@ retargets
 Reusability
 Riak
 RIDL
+RIT
 Rizvi
 RTT
 RUBiS
@@ -325,7 +325,6 @@ tradeoff
 tradeoffs
 transformative
 transpilation
-Transpilation
 transpile
 transpiling
 Twissandra
