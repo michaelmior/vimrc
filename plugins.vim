@@ -87,8 +87,13 @@ Plug 'derekwyatt/vim-scala',                        { 'for': 'scala' }
 Plug 'cakebaker/scss-syntax.vim',                   { 'for': 'scss' }
 Plug 'lervag/vimtex',                               { 'for': ['tex', 'plaintex'] }
 Plug 'cespare/vim-toml',                            { 'for': 'toml' }
+Plug 'leafgarland/typescript-vim',                  { 'for': 'ts' }
 Plug 'gittup/tup',                                  { 'for': 'tup', 'rtp': 'contrib' }
 Plug 'posva/vim-vue',                               { 'for': 'vue' }
+
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue'] }
 
 " tmux-specific plugins
 if strlen($TMUX)
