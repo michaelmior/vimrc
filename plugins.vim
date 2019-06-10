@@ -44,6 +44,7 @@ Plug 'jeetsukumaran/vim-indentwise'
 Plug 'farmergreg/vim-lastplace'
 Plug 'tommcdo/vim-lion'
 Plug 'tpope/vim-repeat'
+Plug 'lbrayner/vim-rzip'
 Plug 'mhinz/vim-signify'
 Plug 'jez/vim-superman', { 'on': 'SuperMan' }
 Plug 'tpope/vim-surround'
