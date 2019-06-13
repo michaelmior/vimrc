@@ -246,8 +246,6 @@ set pastetoggle=<F3>
 " Use a darker colour to mark indentation
 let g:indentLine_color_term = 239
 
-let g:EditorConfig_core_mode = "external_command"
-
 " Make test commands execute using vimux
 if strlen($TMUX)
   let test#strategy = "vimux"
