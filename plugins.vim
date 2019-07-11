@@ -14,7 +14,6 @@ Plug 'rhysd/clever-f.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tacahiroy/ctrlp-funky'
 Plug 'JazzCore/ctrlp-cmatcher', { 'do': ':!~/.vim/plugged/ctrlp-cmatcher/install.sh' }
-Plug 'Raimondi/delimitMate'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi', { 'for': 'python' }
 Plug 'padawan-php/deoplete-padawan', { 'for': 'php' }
@@ -22,6 +21,7 @@ Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
 Plug 'editorconfig/editorconfig-vim'
 Plug 'mattn/emmet-vim'
 Plug 'Yggdroot/indentLine'
+Plug 'cohama/lexima.vim'
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'neomake/neomake'
@@ -36,7 +36,6 @@ Plug 'tpope/vim-characterize'
 Plug 'tpope/vim-commentary'
 Plug 'ryanoasis/vim-devicons'
 Plug 'justincampbell/vim-eighties'
-Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-fugitive'
 Plug 'w0ng/vim-hybrid'
 Plug 'michaeljsmith/vim-indent-object'
