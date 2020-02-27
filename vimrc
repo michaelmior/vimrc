@@ -104,12 +104,6 @@ let g:airline#extensions#disable_rtp_load = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 
-autocmd! BufWritePost * Neomake
-let g:neomake_javascript_enabled_makers = ['eslint']
-let g:neomake_ruby_enabled_makers = ['rubocop']
-let g:neomake_scala_enabled_makers = ['scalac']
-let g:neomake_tex_enabled_makers = ['chktex', 'rubberinfo']
-
 " Restore cursor position on load
 set viminfo='10,\"100,:20,%,n~/.viminfo
 function! ResCur()
@@ -296,11 +290,3 @@ let g:vimtex_view_mupdf_send_keys='i'
 augroup vimtex_config
   autocmd User VimtexEventInitPost silent VimtexCompile
 augroup END
-
-" LanguageClient-neovim configuration
-let g:LanguageClient_serverCommands = {
-    \ 'rust': ['~/.cargo/bin/rustup', 'run', 'nightly', 'rls']
-    \ }
-nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>

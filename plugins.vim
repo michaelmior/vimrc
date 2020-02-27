@@ -24,7 +24,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'cohama/lexima.vim'
 Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
-Plug 'neomake/neomake'
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
 Plug 'majutsushi/tagbar'
@@ -105,11 +104,6 @@ if strlen($TMUX)
 
   " Disabled since configuration has been manually applied
   " Plug 'edkolev/tmuxline.vim'
-endif
-
-" neovim-specific plugins
-if has('nvim')
-  Plug 'autozimu/LanguageClient-neovim', { 'branch': 'next', 'do': 'bash install.sh' }
 endif
 
 call plug#end()
