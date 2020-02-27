@@ -7,6 +7,7 @@ filetype off                  " required
 let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
 call plug#begin(s:path . '/plugged')
 
+Plug 'dense-analysis/ale'
 Plug 'chreekat/vim-paren-crosshairs'
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
