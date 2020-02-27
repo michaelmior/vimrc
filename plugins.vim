@@ -61,6 +61,7 @@ Plug 'cstrahan/vim-capnp',                          { 'for': 'capnp' }
 Plug 'kchmck/vim-coffee-script',                    { 'for': 'coffee' }
 Plug 'chrisbra/csv.vim',                            { 'for': 'csv' }
 Plug 'elubow/cql-vim',                              { 'for': 'cql' }
+Plug 'lambdalisue/vim-cython-syntax',               { 'for': 'cython' }
 Plug 'ekalinin/Dockerfile.vim',                     { 'for': 'Dockerfile' }
 Plug 'dcharbon/vim-flatbuffers',                    { 'for': 'fbs' }
 Plug 'dag/vim-fish',                                { 'for': 'fish' }
@@ -71,6 +72,7 @@ Plug 'digitaltoad/vim-jade',                        { 'for': 'jade' }
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'elzr/vim-json',                               { 'for': 'json' }
+Plug 'udalov/kotlin-vim',                           { 'for': 'kotlin' }
 Plug 'groenewege/vim-less',                         { 'for': 'less' }
 Plug 'tpope/vim-liquid',                            { 'for': 'liquid' }
 Plug 'plasticboy/vim-markdown',                     { 'for': 'mkd' }
