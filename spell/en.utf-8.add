@@ -2,6 +2,7 @@ Aalo
 Abadi
 Abedjan
 Aboulnaga
+ActiveClean
 ADT
 Aguilera
 Ailamaki
@@ -70,6 +71,7 @@ committer
 committers
 ConQuer
 ControVol
+ConVec
 convolutional
 CoPhy
 CORADD
@@ -122,6 +124,7 @@ ECN
 EEJF
 EER
 Elasticsearch
+ELMo
 ERQL
 ERS
 ESLint
@@ -143,6 +146,7 @@ gameplay
 genomics
 GitHub
 Gitter
+GloVe
 GMAP
 Gomes
 Google's
@@ -167,6 +171,7 @@ HPE
 HTTPS
 HyFD
 HyperDex
+hyperparameter
 ICDE
 IDE
 IDNF
@@ -176,6 +181,7 @@ ILP
 iMapReduce
 INDF
 INDs
+InfoGather
 IntelliJ
 interarrival
 INUM
@@ -240,8 +246,10 @@ MicroFuge
 Middleware
 Mininet
 Mior
+misclassifies
 MLlib
 MLlib
+MLP
 MongoDB
 multiplayer
 MySQL
@@ -260,7 +268,9 @@ NewSQL
 nginx
 NLP
 NoAM
+Nobari
 NodeManagers
+nonlinearity
 NoSE
 NoSE's
 NoSQL
@@ -309,6 +319,7 @@ preorder
 PrIter
 ProgrammableWeb
 programmatically
+Prokoshyna
 Proxying
 PySpark
 QCRI
@@ -372,10 +383,12 @@ structs
 Stylesheet
 subexpressions
 subgraph
+subgraphs
 subquery
 superkey
 superkeys
 Supermicro
+supertype
 SVGs
 SYSTOR
 TANE
@@ -396,6 +409,8 @@ Ubuntu
 UDF
 UML
 uncached
+undersample
+undersampling
 unintuitively
 unpersist
 unpersisted
@@ -407,6 +422,7 @@ username
 UUID
 Vajk
 Varys
+Venetis
 Vertica
 Vertica's
 virtualization
@@ -415,6 +431,8 @@ VoltDB
 walkthrough
 WebDAV
 Webpack
+Word2vec
+WordNet
 workflow
 workflows
 Xeon
