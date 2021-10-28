@@ -1,6 +1,6 @@
 if has('nvim')
-  let g:python_host_prog = '/usr/bin/python'
-  let g:python3_host_prog = '/usr/bin/python3'
+  let g:python_host_prog = expand('~/.pyenv/versions/2.7.18/bin/python2.7')
+  let g:python3_host_prog = expand('~/.pyenv/versions/3.9.0/bin/python3.9')
 endif
 
 " Load list of plugins
