@@ -26,9 +26,8 @@ Plug 'valloric/MatchTagAlways', { 'for': ['html', 'xml'] }
 Plug 'Shougo/neco-vim', { 'for': 'vim' }
 Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
-Plug 'majutsushi/tagbar'
+Plug 'preservim/tagbar'
 Plug 'wellle/targets.vim'
-Plug 'ron89/thesaurus_query.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-bundler', { 'for': 'ruby' }
 Plug 'tpope/vim-characterize'
@@ -40,7 +39,6 @@ Plug 'w0ng/vim-hybrid'
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'jeetsukumaran/vim-indentwise'
 Plug 'farmergreg/vim-lastplace'
-Plug 'tommcdo/vim-lion'
 Plug 'darfink/vim-plist'
 Plug 'tpope/vim-repeat'
 Plug 'lbrayner/vim-rzip'
@@ -69,8 +67,8 @@ Plug 'fatih/vim-go',                                { 'for': 'go', 'do': ':GoIns
 Plug 'vim-scripts/gnuplot.vim',                     { 'for': 'gnuplot' }
 Plug 'othree/html5.vim',                            { 'for': 'html' }
 Plug 'digitaltoad/vim-jade',                        { 'for': 'jade' }
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript',                     { 'for': 'javascript' }
+Plug 'MaxMEllon/vim-jsx-pretty',                    { 'for': 'javascript' }
 Plug 'elzr/vim-json',                               { 'for': 'json' }
 Plug 'udalov/kotlin-vim',                           { 'for': 'kotlin' }
 Plug 'groenewege/vim-less',                         { 'for': 'less' }
