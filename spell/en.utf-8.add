@@ -108,6 +108,7 @@ DeepMind
 denormalization
 denormalizations
 Dependabot
+deserialization
 deserializes
 DEXA
 DFD
@@ -199,7 +200,9 @@ JIRA
 JIRA's
 JSchema
 JSON
+JSON
 JSONDiscoverer
+JSONoid
 Kafka
 Kanade
 Kanellakis
@@ -266,8 +269,8 @@ Naumann
 NetBeans
 Netflix
 Netlify
-NetStore
 Netstore
+NetStore
 NetStore's
 NewSQL
 nginx
@@ -296,6 +299,7 @@ OpenJDK
 Orbitz
 ORM
 ORMs
+Ororbia
 oversubscription
 P2P
 PageRank
