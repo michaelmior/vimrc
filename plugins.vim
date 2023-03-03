@@ -29,6 +29,7 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'godlygeek/tabular'
 Plug 'preservim/tagbar'
 Plug 'wellle/targets.vim'
+Plug 'markonm/traces.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-bundler', { 'for': 'ruby' }
 Plug 'tpope/vim-characterize'
