@@ -12,6 +12,7 @@ Plug 'chreekat/vim-paren-crosshairs'
 Plug 'vim-scripts/a.vim'
 Plug 'vim-scripts/Improved-AnsiEsc', { 'on': 'AnsiEsc' }
 Plug 'rhysd/clever-f.vim'
+Plug 'wellle/context.vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tacahiroy/ctrlp-funky'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
