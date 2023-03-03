@@ -200,7 +200,6 @@ JIRA
 JIRA's
 JSchema
 JSON
-JSON
 JSONDiscoverer
 JSONoid
 Kafka
@@ -342,6 +341,7 @@ RDDShare
 README
 recomputation
 Redis
+Refactor
 reMarkable
 renormalization
 renormalize
