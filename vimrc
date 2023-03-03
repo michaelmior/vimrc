@@ -8,6 +8,7 @@ runtime plugins.vim
 
 if has('nvim')
   silent! call deoplete#enable()
+  call deoplete#custom#option('num_processes', 4)
   " deoplete tab-complete
   inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
   let g:deoplete#omni_patterns = {}
